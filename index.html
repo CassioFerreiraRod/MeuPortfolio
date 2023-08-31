@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="caixa">
+      <nav>
+        <ul>
+          <li><a href="#principal">Sobre Mim</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <!-- Seção Sobre mim -->
+    <section id="principal">
+      <div>
+        <h2 class="titulo-principal">Sobre min</h2>
+        <p>
+          Olá! Sou um entusiasta da tecnologia e um ávido explorador do mundo da programação. Meu nome é Cassio
+          Ferreira,
+          e
+          minha
+          jornada é uma busca incessante por conhecimento, desafios emocionantes e oportunidades de crescimento. Sou
+          movido pela
+          paixão por transformar ideias em realidade através do poder do código. Para mim, a programação não é apenas
+          uma
+          profissão; é uma paixão que permeia todos os aspectos da minha vida. Quando não
+          estou imerso em projetos de desenvolvimento, você provavelmente me encontrará explorando os cantos mais
+          recentes
+          da
+          comunidade tecnológica, participando de hackathons ou mergulhando em tutoriais para aprender novas linguagens
+          e
+          frameworks.</p>
+        <br>
+        <p>Além do mundo digital, tenho uma paixão por video-games e animes. Essas atividades me permitem encontrar
+          equilíbrio,
+          inspiração e novas perspectivas, que, por sua vez, influenciam positivamente a minha abordagem criativa na
+          programação.
+          Acredito que nossas paixões pessoais têm o poder de enriquecer nosso trabalho e proporcionar uma compreensão
+          mais
+          profunda das soluções que criamos.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Seção Formação -->
+  <section id="formacao">
+    <div class="conteudo-formacoes">
+      <ul class="lista-formacoes">
+        <h2 class="titulo-principal">Formação</h2>
+        <li class="itens">Análise e Desenvolvimento de Sistemas - UNINTER - 2024</li>
+        <h3>Cursos extracurriculares</h3>
+        <li class="itens">
+          <ul>
+            <li>SQL com MySQL Server da Oracle - ONE</li>
+            <li>Oracle next education T4 - ONE</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Seção Portfólio -->
+  <section id="portfolio">
+    <h2 class="titulo-principal">Portfólio</h2>
+    <div class="conteudo-portfolio">
+      <ul>
+        <li class="itens">
+          <a href="https://cassioferreirarod.github.io/Challenge-ONE-/">Decodificador</a>
+          <p>O trabalho consiste em implementar um Decodificador de texto com Javascript</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Seção Contato -->
+  <section id="contato">
+    <div class="container">
+      <h2 class="titulo-principal">Contato</h2>
+      <form>
+
+        <label for="nomesobrenome">Nome e Sobrenome</label>
+        <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" class="input-padrao" required placeholder="seuemail.dominio.com">
+
+        <label for="mensagem">Mensagem</label>
+        <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+      </form>
+      <input type="submit" value="Enviar Formulário" class="enviar">
+    </div>
+    <div>
+      <a href="https://www.linkedin.com/in/cassio-ferreira-141039168/"><ion-icon name="logo-linkedin"></ion-icon></a>
+      <a href="https://github.com/CassioFerreiraRod"><ion-icon name="logo-github"></ion-icon></a>
+    </div>
+  </section>
+  <!-- JavaScript contendo os Ícones do github e linkedin com seus repectivos links -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

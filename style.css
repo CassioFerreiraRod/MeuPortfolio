@@ -1,0 +1,163 @@
+/* Reset de estilos básicos */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Reset de estilos básicos */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: #000000;
+  padding: 10px 0;
+}
+
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+nav ul {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+nav li {
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #C78c19;
+  text-decoration: underline;
+}
+
+/* Estilos da seção sobre min */
+.titulo-principal {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
+}
+
+#principal {
+  padding: 3em 0;
+  background: #fefefe;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.lista-formacoes {
+  width: 70%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.conteudo-formacoes {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.itens {
+  line-height: 1.5;
+}
+
+/* Estilos do portfólio*/
+.conteudo-portfolio {
+  width: 640px;
+  margin: 0 auto;
+}
+
+#portfolio li a {
+  color: #353434;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Estilos do formulário de contato */
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.input-padrao {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.enviar {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.enviar:hover {
+  background-color: #555;
+}
+
+/* Estilos para os ícones de redes sociais */
+#contato div {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#contato a {
+  color: #333;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+/* Estilos gerais para as seções */
+section {
+  padding: 40px 0;
+}
+
+/* Estilos para o ícone do LinkedIn e GitHub */
+ion-icon {
+  vertical-align: middle;
+}
+
+/* Estilos do rodapé */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
